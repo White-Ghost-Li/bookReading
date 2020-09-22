@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/main",
+	"pages/books/main",
+	"pages/comments/main",
+	"pages/detail/main",
+    "pages/logs/main"  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "图书",
+      "pagePath": "pages/books/main",
+      "iconPath": "static/tabs/book.png",
+      "selectedIconPath": "static/tabs/book-active.png"
+    }, {
+      "text": "评论",
+      "pagePath": "pages/comments/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }, {
+      "text": "我",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }],
+
+    "items": [{
+      "name": "图书",
+      "pagePath": "pages/books/main",
+      "icon": "static/tabs/book.png",
+      "activeIcon": "static/tabs/book-active.png"
+    }, {
+      "name": "评论",
+      "pagePath": "pages/comments/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }, {
+      "name": "我",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }],
+    "position": "bottom"
+  }
+}
